@@ -4,9 +4,11 @@ odoo:
     depth: $DEPTH_MERGE
   remotes:
     origin: https://github.com/odoo/odoo.git
+    agodoo: https://github.com/apps2grow/odoo.git
   target: origin 12.0
   merges:
     - origin 12.0
+    - agodoo 12.0.ag
 
 apps2grow/apps:
   defaults:
