@@ -46,9 +46,9 @@ Babel = "==2.3.4"
 Jinja2 = "==2.10.1"
 Mako = "==1.0.4"
 MarkupSafe = "==0.23"
-Pillow = ">=6.2.0"
+Pillow = "==6.1.0"     # python 3.7
 PyPDF2 = "==1.26.0"
-Werkzeug = ">=0.15.3"
+Werkzeug = "==0.11.15" # security fix in 0.15.3: When running the development server in Docker, the debugger security pin is now unique per container.
 XlsxWriter = "==0.9.3"
 pg_activity = "==1.5.0"
 click-odoo-contrib = {editable = true,git = "https://github.com/acsone/click-odoo-contrib.git",ref = "master"}
