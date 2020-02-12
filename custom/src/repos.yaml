@@ -12,7 +12,7 @@ apps2grow/apps:
   defaults:
     depth: $DEPTH_MERGE
   remotes:
-    origin: git@github.com:apps2grow/apps.git
+    origin: https://github.com/apps2grow/apps.git
   target: origin 12.0
   merges:
     - origin 12.0
@@ -21,7 +21,7 @@ apps2grow/survey:
   defaults:
     depth: $DEPTH_MERGE
   remotes:
-    origin: git@github.com:apps2grow/survey.git
+    origin: https://github.com/apps2grow/survey.git
   target: origin 12.0
   merges:
     - origin 12.0
@@ -30,7 +30,7 @@ OCA/account-analytic:
   defaults:
     depth: $DEPTH_MERGE
   remotes:
-    origin: git@github.com:OCA/account-analytic.git
+    origin: https://github.com/OCA/account-analytic.git
   target: origin 12.0
   merges:
     - origin 12.0
@@ -39,7 +39,7 @@ OCA/account-financial-reporting:
   defaults:
     depth: $DEPTH_MERGE
   remotes:
-    origin: git@github.com:OCA/account-financial-reporting.git
+    origin: https://github.com/OCA/account-financial-reporting.git
   target: origin 12.0
   merges:
     - origin 12.0
@@ -48,7 +48,7 @@ OCA/account-financial-tools:
   defaults:
     depth: $DEPTH_MERGE
   remotes:
-    origin: git@github.com:OCA/account-financial-tools.git
+    origin: https://github.com/OCA/account-financial-tools.git
   target: origin 12.0
   merges:
     - origin 12.0
@@ -57,7 +57,7 @@ OCA/reporting-engine:
   defaults:
     depth: $DEPTH_MERGE
   remotes:
-    origin: git@github.com:OCA/reporting-engine.git
+    origin: https://github.com/OCA/reporting-engine.git
   target: origin 12.0
   merges:
     - origin 12.0
@@ -66,7 +66,7 @@ OCA/server-backend:
   defaults:
     depth: $DEPTH_MERGE
   remotes:
-    origin: git@github.com:OCA/server-backend.git
+    origin: https://github.com/OCA/server-backend.git
   target: origin 12.0
   merges:
     - origin 12.0
@@ -75,7 +75,7 @@ OCA/server-tools:
   defaults:
     depth: $DEPTH_MERGE
   remotes:
-    origin: git@github.com:OCA/server-tools.git
+    origin: https://github.com/OCA/server-tools.git
   target: origin 12.0
   merges:
     - origin 12.0
@@ -84,7 +84,7 @@ OCA/server-ux:
   defaults:
     depth: $DEPTH_MERGE
   remotes:
-    origin: git@github.com:OCA/server-ux.git
+    origin: https://github.com/OCA/server-ux.git
   target: origin 12.0
   merges:
     - origin 12.0
@@ -93,7 +93,7 @@ OCA/web:
   defaults:
     depth: $DEPTH_MERGE
   remotes:
-    origin: git@github.com:OCA/web.git
+    origin: https://github.com/OCA/web.git
   target: origin 12.0
   merges:
     - origin 12.0
